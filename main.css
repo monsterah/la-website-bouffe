@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:900');
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.box {
+    color: black;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding: 1px;
+    
+    width: 100%;
+   
+}
+
+/* Colours for each box */
+
+.box1 { background:black;}
+.box2 { background:whitesmoke;}
+.box3 {background:whitesmoke; flex-direction: row-reverse;}
+.box4 {background: whitesmoke; flex-direction: column; min-height: fit-content; font-size: 50px;}
+.box5 {background: whitesmoke; flex-direction: column; min-height: fit-content; font-size: 50px; text-align: center;}
+.box6 {background: whitesmoke; flex-direction: column; min-height: fit-content; font-size: 50px;}
+
+
+
+
+h1 {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}  
+h2 { 
+    color:black;
+    font-size: 50px;
+    text-align: center;
+}
+
+h3 {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+
+h4 {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    color: black;
+    font-size: 50px;
+}
+
+li {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+ol {
+    color: black;
+    font-size: 30px;
+}
+ /* colour changes the colour of chosen tag in html file */
+
+/* class e.g. ".aboutme, .bigfont in HTML class ="" (between tags */
+
+.bigfont {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 80px;
+}
+.mediumfont {
+    font-style: inherit;
+    font-size: 35px;
+    color: black;
+}
+
+.mediumfont2 {
+    font-style: inherit;
+    font-size: 35px;
+    color: white;
+
+}
+
+.center {
+    text-align: center;
+}
+.right {
+    text-align: right;
+}
+.left {
+    text-align: left;
+}
+
+
+
+/* more that one tag use commas, h1, p, h2 etc */
+
+/* ID selector
+needs a #, (id=) on html */ 
+
+body {background-color: whitesmoke;}
